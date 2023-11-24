@@ -17,6 +17,7 @@ namespace _GAME.Code
             Container.Bind<HudWindowViewViewModel>().AsSingle().NonLazy();
             Container.Bind<LevelsFactory>().AsSingle().NonLazy();
             Container.Bind<GameFactory>().AsSingle().NonLazy();
+            Container.Bind<GunFeature>().AsSingle().NonLazy();
             
             Container.Bind<WindowsController>().FromInstance(WindowsController).AsSingle().NonLazy();
             Container.Bind<ConfigsFeature>().FromInstance(ConfigsFeature).AsSingle().NonLazy();

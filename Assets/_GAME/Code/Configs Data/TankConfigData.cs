@@ -1,4 +1,6 @@
-﻿using _GAME.Code.Logic.Tank;
+﻿using System.Collections.Generic;
+using _GAME.Code.Logic.Tank;
+using _GAME.Code.Logic.Tank.Gun;
 using UnityEngine;
 
 namespace _GAME.Code.Configs_Data
@@ -7,9 +9,15 @@ namespace _GAME.Code.Configs_Data
     public class TankConfigData : ScriptableObject
     {
         public Tank TankPrefab;
-        [Space] 
+        [Space]
         
         public float MoveSpeed;
         public float TurnSpeed;
+        [Space]
+
+        public Bullet BulletPrefab;
+        [Space]
+        
+        public List<GunConfigData> Guns;
     }
 }

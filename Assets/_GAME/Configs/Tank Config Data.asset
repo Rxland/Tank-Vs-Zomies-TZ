@@ -15,3 +15,7 @@ MonoBehaviour:
   TankPrefab: {fileID: 6699763150283116698, guid: dd707d9fce947cd41a91afe3f12c109f, type: 3}
   MoveSpeed: 50
   TurnSpeed: 3
+  BulletPrefab: {fileID: 2113163066669378610, guid: 31c51003a3b60f34bb431443840097c5, type: 3}
+  Guns:
+  - {fileID: 11400000, guid: b2e9d4ead417c454e9bf6f6803ede8ef, type: 2}
+  - {fileID: 11400000, guid: 53bb6105de840b94c94a4f28ec3ba735, type: 2}

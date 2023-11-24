@@ -1,5 +1,4 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.InputSystem;
 
 namespace _GAME.Code.Logic.Tank
@@ -14,8 +13,10 @@ namespace _GAME.Code.Logic.Tank
         {
             playerInputs = new PlayerInputs();
             playerInputs.Enable();
-            playerInputs.Player.Move.performed += Move;
+            playerInputs.Player.Shoot.performed += Shoot;
         }
+
+
 
         private void FixedUpdate()
         {
@@ -26,6 +27,11 @@ namespace _GAME.Code.Logic.Tank
         {
             Vector2 inputVector = context.ReadValue<Vector2>();
             _tank.Movement.Move(inputVector);
+        }
+        
+        private void Shoot(InputAction.CallbackContext context)
+        {
+            _tank.Shoot.Shoot();
         }
         
         private void OnValidate()

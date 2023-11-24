@@ -1,5 +1,4 @@
-﻿using System;
-using _GAME.Code.Features;
+﻿using _GAME.Code.Features;
 using UnityEngine;
 using Zenject;
 
@@ -21,7 +20,6 @@ namespace _GAME.Code.Logic.Tank
                 _tank.Rigidbody.velocity  = Vector3.zero;
                 return;
             }
-
             
             _tank.Rigidbody.velocity = transform.forward * _configsFeature.TankConfigData.MoveSpeed;
             
