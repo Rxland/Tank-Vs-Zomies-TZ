@@ -2,26 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbf61451-2e2d-49bb-9417-287b9876637f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Configs Data/GunConfigData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Configs Data/GunConfigData.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Logic/Tank/Gun.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Logic/Tank/Gun/Bullet.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Logic/Tank/Gun/Bullet.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Logic/Tank/Gun/Gun.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Logic/Tank/Gun/Gun.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Logic/Tank/TankShoot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Logic/Tank/TankShoot.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Types/GunType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Types/GunType.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Logic/Tank/TankWeaponChange.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Logic/Tank/TankWeaponChange.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Tank-Vs-Zomies-TZ/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tank-Vs-Zomies-TZ/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GAME/Bundle/Player Inputs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME/Bundle/Player Inputs.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GAME/Bundle/Player Inputs.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME/Bundle/Player Inputs.inputactions" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_GAME/Bundle/Tank/Player Tank.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME/Bundle/Tank/Player Tank.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME/Code/Configs Data/TankConfigData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Configs Data/TankConfigData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME/Code/Factories/GameFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Factories/GameFactory.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_GAME/Code/Logic/Tank/Tank.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Logic/Tank/Tank.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_GAME/Code/Logic/Tank/TankController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Logic/Tank/TankController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME/Code/Logic/Tank/TankMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Logic/Tank/TankMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME/Configs/Tank Config Data.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME/Configs/Tank Config Data.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GAME/Code/Types/InputActionTypeName.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GAME/Code/Types/InputActionTypeName.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +77,7 @@
       <option name="presentableId" value="Default" />
       <updated>1700742313864</updated>
       <workItem from="1700742332377" duration="4456000" />
-      <workItem from="1700817272133" duration="6075000" />
+      <workItem from="1700817272133" duration="7334000" />
     </task>
     <servers />
   </component>

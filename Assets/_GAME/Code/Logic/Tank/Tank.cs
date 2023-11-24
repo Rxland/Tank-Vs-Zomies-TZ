@@ -7,6 +7,7 @@ namespace _GAME.Code.Logic.Tank
     {
         public TankMovement Movement;
         public TankShoot Shoot;
+        public TankWeaponChange WeaponChange;
         public Rigidbody Rigidbody;
         [Space] 
         

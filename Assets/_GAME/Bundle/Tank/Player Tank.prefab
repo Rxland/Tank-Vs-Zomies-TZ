@@ -3041,6 +3041,7 @@ GameObject:
   - component: {fileID: 6699763150283116698}
   - component: {fileID: 1506776896836527325}
   - component: {fileID: 5961256599070806235}
+  - component: {fileID: 822146623250896534}
   - component: {fileID: 7561538980007159522}
   - component: {fileID: 7007152703452350974}
   - component: {fileID: 3386328727259814156}
@@ -3083,6 +3084,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Movement: {fileID: 1506776896836527325}
   Shoot: {fileID: 5961256599070806235}
+  WeaponChange: {fileID: 822146623250896534}
   Rigidbody: {fileID: 7007152703452350974}
   AllGuns:
   - {fileID: 97154061501500235}
@@ -3111,6 +3113,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 78b9d0f15ca74fef957f6299a2b2174b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _tank: {fileID: 6699763150283116698}
+--- !u!114 &822146623250896534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6978151681151533314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c0023203d6c4e178e01d154cf1c4fdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _tank: {fileID: 6699763150283116698}
