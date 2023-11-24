@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a686a47eee2fa44cb0a34b5d86e4d5e, type: 3}
+  m_Name: Game Behaviour
+  m_EditorClassIdentifier: 
+  _serializedGraph: '{"type":"NodeCanvas.BehaviourTrees.BehaviourTree","nodes":[{"dynamic":true,"_position":{"x":378.4,"y":282.4},"$type":"NodeCanvas.BehaviourTrees.Selector","$id":"0"},{"_condition":{"CurrentState":{"_name":"Global/CurrentGameState","_targetVariableID":"30811421-ca9d-4fb2-8e3a-ed4219dd81df"},"$type":"_GAME.Code.Logic.Game_Behavior.Conditions.GameStateCondition"},"_position":{"x":108.7289,"y":436.2058},"$type":"NodeCanvas.BehaviourTrees.ConditionalEvaluator","$id":"1"},{"_action":{"$type":"_GAME.Code.Logic.Game_Behavior.Actions.LoadGameAction"},"_position":{"x":126.3289,"y":522.6057},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"2"},{"_condition":{"CurrentState":{"_name":"Global/CurrentGameState","_targetVariableID":"30811421-ca9d-4fb2-8e3a-ed4219dd81df"},"NeedState":1,"$type":"_GAME.Code.Logic.Game_Behavior.Conditions.GameStateCondition"},"_position":{"x":354.9666,"y":437.1682},"$type":"NodeCanvas.BehaviourTrees.ConditionalEvaluator","$id":"3"},{"_action":{"$type":"_GAME.Code.Logic.Game_Behavior.Actions.LoadLevelAction"},"_position":{"x":369.3666,"y":522.3457},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"4"},{"_condition":{"CurrentState":{"_name":"Global/CurrentGameState","_targetVariableID":"30811421-ca9d-4fb2-8e3a-ed4219dd81df"},"NeedState":2,"$type":"_GAME.Code.Logic.Game_Behavior.Conditions.GameStateCondition"},"_position":{"x":590.3892,"y":437.153},"$type":"NodeCanvas.BehaviourTrees.ConditionalEvaluator","$id":"5"},{"_action":{"$type":"_GAME.Code.Logic.Game_Behavior.Actions.StartLevelAction"},"_position":{"x":606.3892,"y":525.9524},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"6"}],"connections":[{"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"1"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"3"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"5"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"1"},"_targetNode":{"$ref":"2"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"3"},"_targetNode":{"$ref":"4"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"5"},"_targetNode":{"$ref":"6"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"}],"canvasGroups":[{"name":"Start
+    Level","rect":{"xMin":559.5892,"yMin":372.153,"xMax":775.5892,"yMax":615.9524},"autoGroup":true},{"name":"Load
+    Game","rect":{"xMin":78.7289,"yMin":371.2058,"xMax":294.7289,"yMax":612.6057},"autoGroup":true},{"name":"Load
+    Level","rect":{"xMin":324.9666,"yMin":372.1682,"xMax":535.9666,"yMax":612.5679},"autoGroup":true}],"localBlackboard":{"_variables":{}},"derivedData":{"repeat":true,"$type":"NodeCanvas.BehaviourTrees.BehaviourTree+DerivedSerializationData"}}'
+  _objectReferences: []
+  _graphSource:
+    _version: 3.28
+    _category: 
+    _comments: 
+    _translation: {x: -21, y: -94}
+    _zoomFactor: 0.82509714
+  _haltSerialization: 0
+  _externalSerializationFile: {fileID: 0}
