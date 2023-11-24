@@ -1,4 +1,5 @@
-﻿using _GAME.Code.Tools;
+﻿using _GAME.Code.Logic.Character;
+using _GAME.Code.Tools;
 using Sirenix.OdinInspector;
 using UnityEngine;
 
@@ -24,8 +25,13 @@ namespace _GAME.Code.Logic.Tank.Gun
         private void OnCollisionEnter(Collision collision)
         {
             if (!GameExtensions.IsLayerInMask(_layerMask, collision.gameObject.layer)) return;
-            
-            print("Hit " + Damage);
+
+            if (collision.gameObject.TryGetComponent(out CharacterStats characterStats))
+            {
+                characterStats.TakeDamage(Damage);
+                
+                Destroy(gameObject);
+            }
         }
     }
 }

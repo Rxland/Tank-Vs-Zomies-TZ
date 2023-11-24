@@ -21,7 +21,7 @@ namespace _GAME.Code.Logic.Tank
                 return;
             }
             
-            _tank.Rigidbody.velocity = transform.forward * _configsFeature.TankConfigData.MoveSpeed;
+            _tank.Rigidbody.velocity = transform.forward * _configsFeature.TankConfigData.Stats.MoveSpeed;
             
             rotateDir = Vector3.zero;
             rotateDir += _cameraFeature.Camera.transform.right * direction.x;
@@ -29,7 +29,7 @@ namespace _GAME.Code.Logic.Tank
 
             Quaternion newRotation = Quaternion.LookRotation(rotateDir, Vector3.up);
             newRotation = Quaternion.Euler(0f, newRotation.eulerAngles.y, newRotation.eulerAngles.z);
-            newRotation = Quaternion.Lerp(transform.rotation, newRotation, Time.deltaTime * _configsFeature.TankConfigData.TurnSpeed);
+            newRotation = Quaternion.Lerp(transform.rotation, newRotation, Time.deltaTime * _configsFeature.TankConfigData.Stats.TurnSpeed);
 
             transform.rotation = newRotation;
         }

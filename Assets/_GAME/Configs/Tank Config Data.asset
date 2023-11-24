@@ -13,8 +13,7 @@ MonoBehaviour:
   m_Name: Tank Config Data
   m_EditorClassIdentifier: 
   TankPrefab: {fileID: 6699763150283116698, guid: dd707d9fce947cd41a91afe3f12c109f, type: 3}
-  MoveSpeed: 50
-  TurnSpeed: 3
+  Stats: {fileID: 11400000, guid: 641ac17c3dac6184eb00637c5c03201a, type: 2}
   BulletPrefab: {fileID: 2113163066669378610, guid: 31c51003a3b60f34bb431443840097c5, type: 3}
   Guns:
   - {fileID: 11400000, guid: b2e9d4ead417c454e9bf6f6803ede8ef, type: 2}

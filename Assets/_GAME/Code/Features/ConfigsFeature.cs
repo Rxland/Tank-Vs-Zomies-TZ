@@ -6,5 +6,6 @@ namespace _GAME.Code.Features
     public class ConfigsFeature : MonoBehaviour
     {
         public TankConfigData TankConfigData;
+        public AllZombiesConfig AllZombiesConfig;
     }
 }

@@ -9,10 +9,9 @@ namespace _GAME.Code.Configs_Data
     public class TankConfigData : ScriptableObject
     {
         public Tank TankPrefab;
-        [Space]
+        [Space] 
         
-        public float MoveSpeed;
-        public float TurnSpeed;
+        public StatsConfig Stats;
         [Space]
 
         public Bullet BulletPrefab;

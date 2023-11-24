@@ -1,6 +1,10 @@
-﻿using _GAME.Code.Features;
+﻿using _GAME.Code.Configs_Data;
+using _GAME.Code.Features;
 using _GAME.Code.Logic.Tank;
 using _GAME.Code.Logic.Tank.Gun;
+using _GAME.Code.Logic.Zombie;
+using _GAME.Code.Types;
+using NodeCanvas.Framework;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using Zenject;
@@ -23,8 +27,12 @@ namespace _GAME.Code.Factories
             _palyer.transform.position = _levelsFactory.Level.PlayerSpawnPoint.transform.position;
 
             _cameraFeature.SetFollowTarget(_palyer.transform);
-            
+
             SceneManager.MoveGameObjectToScene(_palyer.gameObject, SceneManager.GetActiveScene());
+
+            StatsConfig statsConfig = _configsFeature.TankConfigData.Stats;
+            
+            _palyer.Stats.Init(statsConfig);
         }
 
         public Bullet SpawnBullet(Vector3 spawnPos, Quaternion spawnRot)

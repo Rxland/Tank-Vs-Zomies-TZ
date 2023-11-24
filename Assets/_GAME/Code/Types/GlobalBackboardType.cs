@@ -4,5 +4,6 @@
     {
         CurrentGameState,
         IsGameLoaded,
+        FollowTarget,
     }
 }

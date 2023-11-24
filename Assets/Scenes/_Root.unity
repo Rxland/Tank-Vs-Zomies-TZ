@@ -302,6 +302,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TankConfigData: {fileID: 11400000, guid: 6237d7da4c17c3d4a9d113d808010932, type: 2}
+  AllZombiesConfig: {fileID: 11400000, guid: 1a7d65355f1d9cf4898f89491d7e8b0d, type: 2}
 --- !u!1 &361898839
 GameObject:
   m_ObjectHideFlags: 0
@@ -970,7 +971,7 @@ GameObject:
   - component: {fileID: 1355818059}
   - component: {fileID: 1355818058}
   m_Layer: 0
-  m_Name: _GAME SceneContext
+  m_Name: SceneContext
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -991,6 +992,7 @@ MonoBehaviour:
   WindowsController: {fileID: 897757029}
   ConfigsFeature: {fileID: 271846029}
   CameraFeature: {fileID: 423861783}
+  GameBehavior: {fileID: 1218777757}
 --- !u!114 &1355818059
 MonoBehaviour:
   m_ObjectHideFlags: 0
