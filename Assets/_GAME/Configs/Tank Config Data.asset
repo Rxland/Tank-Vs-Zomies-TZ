@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Tank Config Data
   m_EditorClassIdentifier: 
   TankPrefab: {fileID: 6699763150283116698, guid: dd707d9fce947cd41a91afe3f12c109f, type: 3}
-  MoveSpeed: 10
-  TurnSpeed: 10
+  MoveSpeed: 50
+  TurnSpeed: 3
