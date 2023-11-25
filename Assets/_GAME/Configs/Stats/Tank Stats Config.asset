@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MoveSpeed: 8
   TurnSpeed: 3
-  Health: 100
+  Health: 2000
   Armor: 0.5

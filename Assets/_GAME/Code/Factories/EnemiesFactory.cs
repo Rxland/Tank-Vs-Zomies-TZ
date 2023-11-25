@@ -14,6 +14,7 @@ namespace _GAME.Code.Factories
         [Inject] private CameraFeature _cameraFeature;
         [Inject] private DiContainer _diContainer;
         [Inject] private LevelsFactory _levelsFactory;
+        [Inject] private GameFactory _gameFactory;
         
         public void SpawnRandomZombie()
         {
@@ -22,6 +23,7 @@ namespace _GAME.Code.Factories
             ZombieConfig zombieConfig = _configsFeature.AllZombiesConfig.ZombieConfigs[Random.Range(0, _configsFeature.AllZombiesConfig.ZombieConfigs.Count)];
             
             Zombie zombie = _diContainer.InstantiatePrefabForComponent<Zombie>(zombieConfig.ZombiePrefab);
+            SceneManager.MoveGameObjectToScene(zombie.gameObject, SceneManager.GetActiveScene());
             
             zombie.Stats.Init(zombieConfig.Stats);
             zombie.Attack.Init(zombieConfig.Damage);
@@ -30,27 +32,23 @@ namespace _GAME.Code.Factories
             if (NavMesh.SamplePosition(spawnPosition, out hit, 5f, NavMesh.AllAreas))
             {
                 zombie.Agent.Warp(hit.position);
+                _levelsFactory.Level.AllSpawnedZombies.Add(zombie);
             }
             else
             {
                 GameObject.Destroy(zombie.gameObject);
             }
-            
-            SceneManager.MoveGameObjectToScene(zombie.gameObject, SceneManager.GetActiveScene());
-            
-            _levelsFactory.Level.AllSpawnedZombies.Add(zombie);
         }
         
-        Vector3 CalculateRandomSpawnPosition()
+        private Vector3 CalculateRandomSpawnPosition()
         {
-            Camera mainCamera = _cameraFeature.Camera;
-            float spawnDistance = 50f;
+            float spawnDistance = 30f;
 
             float randomX = Random.Range(-spawnDistance, spawnDistance);
             float randomZ = Random.Range(-spawnDistance, spawnDistance);
 
-            Vector3 cameraPosition = mainCamera.transform.position;
-            Vector3 spawnPosition = new Vector3(cameraPosition.x + randomX, 0f, cameraPosition.z + randomZ);
+            Vector3 playerPos = _gameFactory.Player.transform.position;
+            Vector3 spawnPosition = new Vector3(playerPos.x + randomX, playerPos.y, playerPos.z + randomZ);
 
             return spawnPosition;
         }

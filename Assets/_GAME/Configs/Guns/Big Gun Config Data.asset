@@ -13,5 +13,4 @@ MonoBehaviour:
   m_Name: Big Gun Config Data
   m_EditorClassIdentifier: 
   GunType: 1
-  Damage: 10
-  FireRate: 1
+  Damage: 15

@@ -2,67 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbf61451-2e2d-49bb-9417-287b9876637f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Configs Data/AllZombiesConfig.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Configs Data/AllZombiesConfig.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Configs Data/StatsConfig.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Configs Data/StatsConfig.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Configs Data/ZombieConfig.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Configs Data/ZombieConfig.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Factories/EnemiesFactory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Factories/EnemiesFactory.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Logic/Character.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Logic/Character/CharacterStats.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Logic/Character/CharacterStats.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Logic/Game Behavior/Actions/WaitCondition.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Logic/Game Behavior/Actions/WaitCondition.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Logic/Spawners.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Logic/Spawners/Zombie Spawner Behavior.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Logic/Spawners/Zombie Spawner Behavior/Actions.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Logic/Spawners/Zombie Spawner Behavior/Actions/SpawnZombieAction.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Logic/Spawners/Zombie Spawner Behavior/Actions/SpawnZombieAction.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Logic/Spawners/Zombie Spawner Behavior/Conditions.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Logic/Spawners/Zombie Spawner Behavior/Conditions/CanSpawnZombieCondition.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Logic/Spawners/Zombie Spawner Behavior/Conditions/CanSpawnZombieCondition.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Logic/Spawners/Zombie Spawner Behavior/ZombieSpawnerBehavior.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Logic/Spawners/Zombie Spawner Behavior/ZombieSpawnerBehavior.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Logic/Tank/TankStats.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Logic/Tank/TankStats.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Logic/Zombie.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Logic/Zombie/Behavior AI.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Logic/Zombie/Behavior AI/Actions.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Logic/Zombie/Behavior AI/Actions/ZombieFollowAction.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Logic/Zombie/Behavior AI/Actions/ZombieFollowAction.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Logic/Zombie/Behavior AI/Actions/ZombieHitTankAction.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Logic/Zombie/Behavior AI/Actions/ZombieHitTankAction.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Logic/Zombie/Behavior AI/Conditions.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Logic/Zombie/Behavior AI/Conditions/ZombieHitTankCondition.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Logic/Zombie/Behavior AI/Conditions/ZombieHitTankCondition.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Logic/Zombie/Zombie.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Logic/Zombie/Zombie.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Logic/Zombie/ZombieAttack.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Logic/Zombie/ZombieAttack.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Logic/Zombie/ZombieStats.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Logic/Zombie/ZombieStats.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_GAME/Code/UI/CharacterCanvas.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_GAME/Code/UI/CharacterCanvas.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Tank-Vs-Zomies-TZ/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tank-Vs-Zomies-TZ/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InProjectAssets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_Cyan.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InProjectAssets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_Cyan.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/_Root.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/_Root.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME/Bundle/Bullets/Bullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME/Bundle/Bullets/Bullet.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME/Bundle/Tank/Player Tank.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME/Bundle/Tank/Player Tank.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME/Code/Configs Data/TankConfigData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Configs Data/TankConfigData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GAME/Bundle/Zombies/Zombie 1 Pivot.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME/Bundle/Zombies/Zombie 1 Pivot.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GAME/Bundle/Zombies/Zombie 2 Pivot.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME/Bundle/Zombies/Zombie 2 Pivot.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GAME/Bundle/Zombies/Zombie 3 Pivot.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME/Bundle/Zombies/Zombie 3 Pivot.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GAME/Code/Factories/EnemiesFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Factories/EnemiesFactory.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_GAME/Code/Factories/GameFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Factories/GameFactory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME/Code/Features/ConfigsFeature.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Features/ConfigsFeature.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME/Code/GameInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME/Code/GameInstaller.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_GAME/Code/Logic/Level.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Logic/Level.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME/Code/Logic/Tank/Gun/Bullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Logic/Tank/Gun/Bullet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME/Code/Logic/Tank/Tank.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Logic/Tank/Tank.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME/Code/Logic/Tank/TankMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Logic/Tank/TankMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME/Code/Types/GlobalBackboardType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME/Code/Types/GlobalBackboardType.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME/Configs/Tank Config Data.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME/Configs/Tank Config Data.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GAME/Configs/Guns/Big Gun Config Data.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME/Configs/Guns/Big Gun Config Data.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GAME/Configs/Guns/Small Gun Config Data.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME/Configs/Guns/Small Gun Config Data.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GAME/Configs/Stats/Tank Stats Config.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME/Configs/Stats/Tank Stats Config.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GAME/Configs/Stats/Zombie 3 Stats Config.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME/Configs/Stats/Zombie 3 Stats Config.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,10 +59,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="3144">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="22228">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="3144" />
+      <option name="pid" value="22228" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -129,7 +80,8 @@
       <updated>1700742313864</updated>
       <workItem from="1700742332377" duration="4456000" />
       <workItem from="1700817272133" duration="10580000" />
-      <workItem from="1700852025326" duration="6064000" />
+      <workItem from="1700852025326" duration="6517000" />
+      <workItem from="1700900889660" duration="1867000" />
     </task>
     <servers />
   </component>

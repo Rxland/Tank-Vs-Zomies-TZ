@@ -2,9 +2,6 @@
 using _GAME.Code.Features;
 using _GAME.Code.Logic.Tank;
 using _GAME.Code.Logic.Tank.Gun;
-using _GAME.Code.Logic.Zombie;
-using _GAME.Code.Types;
-using NodeCanvas.Framework;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using Zenject;
@@ -24,12 +21,12 @@ namespace _GAME.Code.Factories
         public void SpawnPlayer()
         {
             _palyer = _diContainer.InstantiatePrefabForComponent<Tank>(_configsFeature.TankConfigData.TankPrefab);
+            SceneManager.MoveGameObjectToScene(_palyer.gameObject, SceneManager.GetActiveScene());
+            
             _palyer.transform.position = _levelsFactory.Level.PlayerSpawnPoint.transform.position;
 
             _cameraFeature.SetFollowTarget(_palyer.transform);
-
-            SceneManager.MoveGameObjectToScene(_palyer.gameObject, SceneManager.GetActiveScene());
-
+            
             StatsConfig statsConfig = _configsFeature.TankConfigData.Stats;
             
             _palyer.Stats.Init(statsConfig);

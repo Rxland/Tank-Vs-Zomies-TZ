@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 646c52edcc24435f9e86ee3a0afde164, type: 3}
   m_Name: Zombie 3 Stats Config
   m_EditorClassIdentifier: 
-  MoveSpeed: 4
+  MoveSpeed: 6
   TurnSpeed: 300
-  Health: 40
-  Armor: 0.4
+  Health: 80
+  Armor: 0.6

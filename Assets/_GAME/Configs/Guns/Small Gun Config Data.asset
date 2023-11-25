@@ -13,5 +13,4 @@ MonoBehaviour:
   m_Name: Small Gun Config Data
   m_EditorClassIdentifier: 
   GunType: 0
-  Damage: 1
-  FireRate: 0.1
+  Damage: 3

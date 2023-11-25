@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using _GAME.Code.Factories;
+﻿using System.Collections.Generic;
 using Cinemachine;
 using Sirenix.OdinInspector;
 using UnityEngine;
 using UnityEngine.Events;
-using UnityEngine.SceneManagement;
-using Zenject;
 
 namespace _GAME.Code.Logic
 {
@@ -26,14 +22,8 @@ namespace _GAME.Code.Logic
         
         private void Start()
         {
-            if (!SceneManager.GetActiveScene().name.Contains("_Root"))
-            {
-                SceneManager.LoadScene("_Root");
-            }
-            else
-            {
-                OnLevelLoaded?.Invoke();
-            }
+            OnLevelLoaded?.Invoke();
+            IsLevelLoaded = true;
         }
     }
 }
